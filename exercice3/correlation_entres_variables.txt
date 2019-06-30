@@ -1,0 +1,39 @@
+                               gender  race/ethnicity  \
+gender                       1.000000       -0.001502   
+race/ethnicity              -0.001502        1.000000   
+parental_level_of_education  0.001913       -0.031946   
+lunch                        0.021372        0.046563   
+test_preparation_course     -0.006028       -0.017508   
+math_score                   0.167982        0.216415   
+reading_score               -0.244313        0.145253   
+writing_score               -0.301225        0.165691   
+
+                             parental_level_of_education     lunch  \
+gender                                          0.001913  0.021372   
+race/ethnicity                                 -0.031946  0.046563   
+parental_level_of_education                     1.000000  0.006320   
+lunch                                           0.006320  1.000000   
+test_preparation_course                        -0.023968  0.017044   
+math_score                                     -0.068279  0.350877   
+reading_score                                  -0.072444  0.229560   
+writing_score                                  -0.084299  0.245769   
+
+                             test_preparation_course  math_score  \
+gender                                     -0.006028    0.167982   
+race/ethnicity                             -0.017508    0.216415   
+parental_level_of_education                -0.023968   -0.068279   
+lunch                                       0.017044    0.350877   
+test_preparation_course                     1.000000   -0.177702   
+math_score                                 -0.177702    1.000000   
+reading_score                              -0.241780    0.817580   
+writing_score                              -0.312946    0.802642   
+
+                             reading_score  writing_score  
+gender                           -0.244313      -0.301225  
+race/ethnicity                    0.145253       0.165691  
+parental_level_of_education      -0.072444      -0.084299  
+lunch                             0.229560       0.245769  
+test_preparation_course          -0.241780      -0.312946  
+math_score                        0.817580       0.802642  
+reading_score                     1.000000       0.954598  
+writing_score                     0.954598       1.000000 
