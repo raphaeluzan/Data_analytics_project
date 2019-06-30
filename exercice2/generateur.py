@@ -35,11 +35,6 @@ def point_valeurs(valeur_moyenne, valeur_normale, dev, cluster, dim):
             valeurs = valeurs + "," + str(valeur)
     return (valeurs + "," + str(cluster))
 
-def write_into_csv(file_name, rdd): 
-    with open(file_name,'wb') as file:
-        for row in rdd.collect():
-            file.write(row)
-            file.write('\n')
 
 #code
 '''
